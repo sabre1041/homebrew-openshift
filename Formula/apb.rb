@@ -9,8 +9,8 @@ class Apb < Formula
   depends_on "python@2" if MacOS.version <= :snow_leopard
 
   resource "apb" do
-    url "https://files.pythonhosted.org/packages/93/b0/987fb22bd19d1382bc19f1a081675d7f3585e3b09e27df0ab3b6b564fff2/apb-1.1.15.tar.gz"
-    sha256 "9ae76452c7c76f7cccecaaa8f24fa954aec965956edc60474f6b6e68db34190c"
+    url "https://files.pythonhosted.org/packages/d4/3b/054c3a462d824746a558798031a3a26fc56d345f51902bdb40bbc7a6e943/apb-1.2.4.tar.gz"
+    sha256 "9c9e44a0bb3e372e97b02b9f8eb0b33cb8c572c9fc1a0ee0908270b704fbcbad"
   end
 
   resource "backports.ssl_match_hostname" do
